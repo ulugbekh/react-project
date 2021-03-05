@@ -1,0 +1,43 @@
+.section1-block {
+    width: 20%;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px 32px;
+
+    &:hover {
+        border: 1px solid #3751FF;;
+        cursor: pointer;
+        .text {
+            color: #3751FF;
+        }
+
+        .span-text {
+            color: #3751FF;
+        }
+    }
+
+    .text {
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: #9FA2B4;
+    }
+
+    .span-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #252733;
+        text-align: center;
+        display: block;
+        margin-top: 12px;
+    }
+}

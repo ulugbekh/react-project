@@ -1,0 +1,59 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+    
+}
+
+.header-left {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    color: #252733;
+}
+
+.page-one {
+    width: 80%;
+    padding: 18px 24px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+
+    .header-right-left {
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        border-right: 1px solid #DFE0EB;
+
+        .poisk {
+            padding-right: 10px;
+        }
+    }
+    }
+
+    .header-right-right {
+        display: flex;
+        align-items: center;
+        .person-name {
+            padding: 0 20px;
+        }
+    }
+
+    .sectionTwo {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 24px;
+    }
+
+    .sectionthere {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 24px;
+    }
+    

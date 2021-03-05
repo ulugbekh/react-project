@@ -1,0 +1,58 @@
+.person-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 45px;
+    
+
+    .person-info2 {
+        display: flex;
+        align-items: center;
+
+        .person-info1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            color: #9FA2B4;
+            padding-left: 40px;
+            width: 208px;
+        }
+
+        .person-info2 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            color: #9FA2B4;
+            padding-left: 40px;
+            width: 140px;
+        }
+
+        .person-info3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            color: #9FA2B4;
+            padding-left: 40px;
+            width: 104px;
+        }
+
+        
+    }
+
+    .person-info0 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #9FA2B4;
+        
+    }
+}
+

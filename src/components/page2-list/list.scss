@@ -1,0 +1,31 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 45px;
+    // padding-bottom: 48px;
+    border-bottom: 1.5px solid #DFE0EB;
+    
+
+    
+
+    .right {
+        display: flex;
+        align-items: center;
+
+        .link-text {
+            padding-left: 15px;
+        }
+
+        .right-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .right-left {
+            padding-right: 56px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

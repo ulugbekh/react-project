@@ -1,0 +1,130 @@
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 45px;
+    border-top: 0.5px solid #DFE0EB;
+    &:hover {
+        background-color: #e6e0e0;
+    }
+    // border-bottom: 0.5px solid #DFE0EB;
+
+    
+
+    .person-left {
+        display: flex;
+        align-items: center;
+
+        .p-right {
+            padding-left: 24px;
+
+            .span-info {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #C5C7CD;
+            }
+
+            .p-info {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #252733;
+            }
+        }
+
+        .p-images {
+            border-radius: 50%;
+        }
+    }
+
+    
+}
+
+.person-right {
+    display: flex;
+    align-items: center;
+
+    .p-name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #252733;
+    }
+
+    .person-link {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 5px 12px;
+        border-radius: 100px;
+
+        &.Low {
+            background-color: red;
+        }
+
+        &.High {
+            background-color: green;
+        }
+
+        &.Normol {
+            background-color: yellow;
+        }
+    }
+
+    .p-date {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #C5C7CD;
+    }
+
+    .p-1 {
+        width: 208px;
+        padding-right: 40px;
+
+
+    }
+
+    .p-2 {
+        width: 140px;
+        padding-right: 40px;
+    }
+
+    .p-3 {
+        padding-right: 40px;
+
+        .person-link {
+            text-decoration: none;
+        }
+    }
+
+    .p-link {
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        display: block;
+        background-color: #C5C7CD;
+        margin: 1px;
+    }
+
+    .p-4 {
+        cursor: pointer;
+        // padding-right: 35px;
+    }
+}
